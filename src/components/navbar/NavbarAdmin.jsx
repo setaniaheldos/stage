@@ -37,7 +37,7 @@ export default function NavbarAdmin() {
             >
               {sidebarOpen ? <X size={28} className="animate-fade-in-up" /> : <Menu size={28} className="animate-fade-in-down" />}
             </button>
-            <span className="text-2xl font-extrabold text-blue-700 dark:text-blue-300 tracking-tight flex items-center gap-2">
+            <span className="text-2xl font-extrabold text-blue-600 dark:text-blue-300 tracking-tight flex items-center gap-2">
               <Shield size={28} className="animate-bounce" />
               Admin Panel
             </span>
